@@ -1,0 +1,40 @@
+.box{
+  display: flex;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 2px;
+  background-color: #fff;
+}
+
+.box:hover{
+  cursor: pointer;
+}
+
+.avatar img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.content{
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 15px;
+}
+
+.active{
+  background-color: #dcdcdc;
+  position: relative;
+}
+
+.active::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background-color: #8B40FF;
+}

@@ -1,0 +1,16 @@
+.box{
+  position: fixed;
+  right: 25px;
+  top: 10px;
+}
+.box:hover{
+  cursor: pointer;
+}
+.box span{
+  font-size: 30px;
+  color: #9E9E9F;
+}
+
+.box span:hover{
+  color: #BBA0FA;
+}

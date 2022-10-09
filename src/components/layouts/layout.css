@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+button{
+  outline: none;
+  border: none;
+}
+
+ul,li{
+  list-style: none;
+}
+@media screen and (max-width:700px){
+  body{
+    font-size: 32rem;
+  }
+}

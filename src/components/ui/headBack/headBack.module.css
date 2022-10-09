@@ -1,0 +1,25 @@
+
+.box{
+  position: fixed;
+  top: 40px;
+  left: 50px;
+}
+
+.box p span{
+  font-size: 24px;
+}
+.box p span:hover{
+  cursor: pointer;
+  color: #BBA0FA;
+}
+@media screen  and (max-width:700px){
+  .box{
+    position: fixed;
+    top: 40rem;
+    left: 50rem;
+  }
+  
+  .box p span{
+    font-size: 50rem;
+  }
+}

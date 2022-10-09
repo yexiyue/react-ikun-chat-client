@@ -1,10 +1,18 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
-import './index.css'
+import {Provider} from 'react-redux'
+import { store } from './store'
+import {BrowserRouter as Router} from 'react-router-dom'
+
+//移动端适配
+
+document.documentElement.style.fontSize=100/750+'vw';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <Router>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </Router>
 )

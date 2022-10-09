@@ -1,0 +1,33 @@
+
+
+.mybtn{
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  color: rgba(255, 255, 255, 0.748);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.mybtn:hover{
+  cursor: pointer;
+}
+
+.blue{
+  background-color: rgba(44, 44, 190, 0.808);
+}
+
+.origin{
+  background-color: rgb(62, 206, 105);
+}
+
+@media screen and (max-width:700px) {
+  .mybtn{
+    width: 180rem;
+    height: 80rem;
+    border-radius: 40rem;
+    color: rgba(255, 255, 255, 0.748);
+    font-weight: bold;
+    font-size: 30rem;
+  }
+}

@@ -1,0 +1,11 @@
+.box{
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  overflow: auto;
+  padding-bottom: 80px;
+}
+.box::-webkit-scrollbar{
+  display: none;
+}

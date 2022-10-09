@@ -1,0 +1,104 @@
+.box{
+  background-image: linear-gradient(65deg,rgba(128, 255, 0, 0.655),rgba(241, 115, 115, 0.544),rgba(0, 0, 255, 0.773),rgba(128, 255, 0, 0.655));
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  width: 40%;
+  height: 40%;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: rgba(209, 83, 207, 0.168);
+}
+
+.title{
+  letter-spacing: 3rem;
+  margin-top: 20rem;
+  background-image: linear-gradient(60deg,rgba(247, 129, 33, 0.868),rgba(27, 33, 212, 0.758),rgba(247, 129, 33, 0.868));
+  background-size: 200% 100%;
+  background-position: 0% 100%;
+  -webkit-background-clip: text;
+  font-size: 28px;
+  color: transparent;
+  animation: titleMove 1.5s linear infinite;
+  text-shadow: 2px 2px 3px  rgba(249, 249, 249, 0.37);
+}
+
+.contentP{
+  width: 65%;
+  margin: 5px auto;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.729);
+}
+.all{
+  width: 65%;
+  margin: 5px auto;
+  font-size: 16px;
+  color: rgba(42, 223, 90, 0.729);
+}
+.btn{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+@keyframes titleMove {
+  0%{
+    background-position: 0%;
+  }
+  100%{
+    background-position: 200%;
+  }
+}
+
+@media screen and (max-width:700px) {
+  
+  
+  .content{
+    width: 75%;
+    height: 60%;
+    font-size: 24rem;
+    text-align: center;
+    border-radius: 45rem;
+    background-color: rgba(209, 83, 207, 0.168);
+  }
+  
+  .title{
+    letter-spacing: 3rem;
+    margin-top: 20rem;
+    background-image: linear-gradient(60deg,rgba(247, 129, 33, 0.868),rgba(27, 33, 212, 0.758),rgba(247, 129, 33, 0.868));
+    background-size: 200% 100%;
+    background-position: 0% 100%;
+    -webkit-background-clip: text;
+    font-size: 50rem;
+    color: transparent;
+    animation: titleMove 1.5s linear infinite;
+    text-shadow: 2px 2px 3px  rgba(249, 249, 249, 0.37);
+  }
+  
+  
+  
+  .contentP{
+    width: 65%;
+    margin: 50rem auto;
+    font-size: 35rem;
+    color: rgba(255, 255, 255, 0.729);
+    line-height: 55rem;
+  }
+  
+  .btn{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}

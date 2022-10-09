@@ -1,0 +1,68 @@
+
+
+.box{
+  position: fixed;
+  top: -20px;
+  animation: move 3s;
+  width: 200px;
+  text-align: center;
+  background-color: rgba(18, 19, 19, 0.161);
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+@keyframes move{
+  0%{
+    top:-20px;
+  }
+  50%{
+    top: 40px;
+  }
+  95%{
+    top: 40px;
+  }
+  100%{
+    top: -20px;
+  }
+}
+
+.danger{
+  color: rgba(243, 34, 34, 0.916);
+}
+
+.warn{
+  color: rgba(191, 243, 34, 0.916);
+}
+
+.success{
+  color: rgba(34, 243, 69, 0.916);
+}
+
+@media screen and (max-width:700px) {
+  .box{
+    position: fixed;
+    top: -50rem;
+    animation: move 3s;
+    width: 400rem;
+    text-align: center;
+    background-color: rgba(18, 19, 19, 0.161);
+    font-weight: bold;
+    font-size: 40rem;
+    border-radius: 20rem;
+  }
+  @keyframes move{
+    0%{
+      top:-50rem;
+    }
+    50%{
+      top: 50rem;
+    }
+    95%{
+      top: 50rem;
+    }
+    100%{
+      top: -50rem;
+    }
+  }
+}

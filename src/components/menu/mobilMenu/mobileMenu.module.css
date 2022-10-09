@@ -1,0 +1,35 @@
+.box{
+  position: fixed;
+  background-color: rgba(61, 63, 62, 0.369);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  
+}
+
+.content{
+  height: 90%;
+  margin: 10% auto;
+  background-color: #fff;
+  width: 90%;
+  border: 1px solid #9373EE;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  text-align: center;
+  margin: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(169, 167, 167);
+  color: #9373EE;
+}
+
+.body{
+  overflow: auto;
+  padding: 0 10px;
+  flex: auto;
+}

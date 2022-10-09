@@ -1,0 +1,88 @@
+.box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+.avatar {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  
+}
+.avatar img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.avatar input[type='file']{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+}
+
+.avatar:hover{
+  cursor: pointer;
+}
+.message{
+  width:50%;
+  height: 50vh;
+  color: #3a3a3b;
+}
+
+.message p{
+  margin: 10px 0;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.message p:nth-of-type(2n){
+  outline: none;
+  height: 20px;
+  padding-left: 5px;
+  border: 1px solid #bbb;
+  background-color: #ccc;
+}
+
+.message p textarea{
+  outline: none;
+  width: 100%;
+  height: 50px;
+  border: 1px solid #bbb;
+}
+
+.message p textarea:hover{
+  border: 1px solid #BBA0FA;
+}
+
+.button{
+  background-color: #BBA0FA;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width:700px){
+  .message{
+    width: 80%;
+    height: 50vh;
+  }
+  .message div textarea{
+    width: 85%;
+    height:300rem;
+    margin-left: 7.5%;
+  }
+
+  .message p input{
+    height: 40rem;
+  }
+  .button{
+    margin-top: 100rem;
+    
+  }
+}
